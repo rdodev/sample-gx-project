@@ -95,9 +95,9 @@ data_docs_sites:
       class_name: DefaultSiteIndexBuilder
 
 anonymous_usage_statistics:
-  data_context_id: a76ca66d-6d17-48bf-adac-29352b38ab39
-  usage_statistics_url: https://dev.stats.greatexpectations.io/great_expectations/v1/usage_statistics
   enabled: true
+  usage_statistics_url: https://dev.stats.greatexpectations.io/great_expectations/v1/usage_statistics
+  data_context_id: a76ca66d-6d17-48bf-adac-29352b38ab39
 fluent_datasources:
   MyNewS3Datasource:
     type: pandas_s3
@@ -107,6 +107,6 @@ fluent_datasources:
     type: pandas
 notebooks:
 include_rendered_content:
+  expectation_validation_result: false
   expectation_suite: false
   globally: false
-  expectation_validation_result: false
