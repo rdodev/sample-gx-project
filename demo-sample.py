@@ -23,7 +23,7 @@ checkpoint = SimpleCheckpoint(
 )
 checkpoint_result = checkpoint.run()
 
-print("Howdy!")
+
 
 
 

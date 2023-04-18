@@ -12,5 +12,3 @@ RUN pip3 install great_expectations
 WORKDIR /app
 
 COPY . /app/
-
-
