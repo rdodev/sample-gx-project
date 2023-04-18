@@ -11,5 +11,6 @@ RUN pip3 install great_expectations
 # Add work directory
 WORKDIR /app
 
-### OPTIONAL CMD ["jupyter", "notebook", "--allow-root", "--port=8888", "--no-browser", "--ip=0.0.0.0"]
+### OPTIONAL 
+# CMD ["jupyter", "notebook", "--allow-root", "--port=8888", "--no-browser", "--ip=0.0.0.0"]
 
