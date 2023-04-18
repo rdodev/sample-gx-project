@@ -18,7 +18,7 @@ To run the container _and_ mount the current directory into the container run th
 
 ## Self-contained Deployment
 
-It is often useful to create an image that has everything it needs without relying on the host in which it was built. To achieve this, we will simply add the `COPY` directive to our `Dockerfile.depoy` so that it will copy the files of the local directory (relative to where the Dockerfile is) to the containers `WORKDIR` (in this case `/app`).
+It is often useful to create an image that has everything it needs without relying on the host in which it was built. To achieve this, we will simply add the `COPY` directive to our `Dockerfile.deploy` so that it will copy the files of the local directory (relative to where the Dockerfile is) to the containers `WORKDIR` (in this case `/app`).
 
 To build this image run this command:
 
@@ -52,5 +52,5 @@ After build is complete, run:
 
 `docker run -v $(pwd):/app -p 8888:8888 gx/gxdemo:local`
 
-In the terminal output you should see links to the notebook which you can copy and paste in your local web browser! A full-fledged data quality environment in your broweser!
+In the terminal output you should see links to the notebook which you can copy and paste in your local web browser. A full-fledged data quality environment in your browser!
 
