@@ -2,6 +2,10 @@
 
 This demo centers around building and using Docker images to be used with Great Expectations.
 
+## Caveat Emptor
+
+The examples within are meant for education and illustration purposes only. The container images below are not suitable to be deployed on any production system as they are not security/compliance hardened. These are meant to be a good starting point. Please consult with your team/IT/Opsec before you push these images/containers to any production systems.
+
 ## Local Deployment
 
 This sample image shows how straight-forward it can be to containerize GX for local development (with bonus how to run a Jupyter notebook from within the container)
